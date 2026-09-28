@@ -1,0 +1,46 @@
+﻿@{
+    LanguageName = 'Türkçe'
+
+    Strings      = @{
+        AppTitle            = 'Launcher Offline'
+        Subtitle            = 'Oyun başlatıcılarının internet bağlantısını keser, böylece çevrimdışı modda açılırlar. Oturumdan atılma ve sürekli şifre sorma derdi biter.'
+        StateOnline         = 'Çevrimiçi'
+        StateOffline        = 'Çevrimdışı'
+        StateNeedsRepair    = 'Onarım gerekli'
+        GoOffline           = 'Çevrimdışı yap'
+        GoOnline            = 'Çevrimiçi yap'
+        Repair              = 'Onar'
+        Running             = 'Şu an açık'
+        DetailOffline       = 'İnternet erişimi kapalı.'
+        DetailOnline        = 'İnternete normal şekilde bağlanıyor.'
+        DetailNeedsRepair   = 'Başlatıcı güncellenmiş veya taşınmış. Tekrar engellemek için Onar düğmesine basın.'
+        AskCloseTitle       = '{0} şu an açık'
+        AskClose            = 'Değişikliğin geçerli olması için kapatılması gerekiyor. Açık bir oyun varsa önce kaydedip oyundan çıkın.'
+        CloseAndContinue    = 'Kapat ve devam et'
+        KeepOpen            = 'Açık kalsın'
+        Cancel              = 'Vazgeç'
+        NowOffline          = '{0} artık çevrimdışı. Açıp oynayabilirsiniz.'
+        NowOnline           = '{0} tekrar internete bağlanabilir.'
+        Repaired            = '{0} engeli yenilendi.'
+        RestartLauncher     = 'Değişikliğin geçerli olması için {0} uygulamasını yeniden başlatın.'
+        UacCanceled         = 'İzin verilmedi, hiçbir şey değiştirilmedi.'
+        Error               = 'Bir sorun oluştu: {0}'
+        FirewallOff         = 'Windows Güvenlik Duvarı kapalı, engelleme çalışmaz. Windows Güvenliği''nden açın.'
+        NoneFound           = 'Bu bilgisayarda desteklenen bir oyun başlatıcısı bulunamadı.'
+        NotFound            = 'Desteklenen ama bu bilgisayarda bulunamayan: {0}'
+        Refresh             = 'Yenile'
+        ResetAll            = 'Tüm engelleri kaldır'
+        ConfirmResetTitle   = 'Tüm engeller kaldırılsın mı?'
+        ConfirmReset        = 'Bütün oyun başlatıcıları tekrar çevrimiçi olur. İstediğiniz zaman yeniden çevrimdışı yapabilirsiniz.'
+        ResetDone           = 'Tüm engeller kaldırıldı.'
+        Footer              = 'Her değişiklikte bir kez yönetici izni istenir.'
+    }
+
+    Launchers    = @{
+        ubisoft  = 'Aynı hesap iki bilgisayarda mı kullanılıyor? Kayıtlar birbirinin üstüne yazılmasın diye bulut kayıt eşitlemesini kapatın (Ayarlar > Genel).'
+        epic     = 'Açıldığında "Continue in Offline Mode" düğmesine basın. Daha önce giriş yapmış olmanız gerekir. Epic Online Services kullanan oyunlar yine internet isteyebilir.'
+        rockstar = 'Hikâye modları bir kez çevrimiçi giriş yaptıktan sonra çevrimdışı çalışır. GTA Online gibi çevrimiçi modlar internet ister.'
+        ea       = 'Çevrimdışına almadan önce en az bir kez internete bağlıyken giriş yapın.'
+        battlenet = 'Son 30 gün içinde giriş yaptıysanız StarCraft: Remastered, StarCraft II, Diablo II: Resurrected ve Warcraft III: Reforged çevrimdışı oynanabilir.'
+    }
+}

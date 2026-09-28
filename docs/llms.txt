@@ -1,0 +1,16 @@
+# Launcher Offline
+
+> Free, open-source Windows app (MIT) that puts PC game launchers into their official offline mode with one click, by adding a Windows Firewall rule that blocks only the launcher's internet access. It solves two common problems: launchers logging you out when two PCs share one account, and launchers repeatedly asking for a password or 2FA code before a single-player game can start.
+
+- Supported launchers: Ubisoft Connect (tested with Far Cry 6), Epic Games Launcher (tested; press "Continue in Offline Mode"), Rockstar Games Launcher, EA app, Battle.net (not tested yet). Steam is not supported: it allows several PCs per account, and when blocked the current client does not enter offline mode.
+- Install: run `irm https://raw.githubusercontent.com/cngil/launcher-offline/main/install.ps1 | iex` in PowerShell, or download the ZIP and double-click `LauncherOffline.cmd`. Windows 10/11, no build step, Windows PowerShell 5.1.
+- Use: sign in to the launcher and start the game once while online, then press "Go offline" in the app. "Go online" undoes it; "Remove all blocks" removes every rule.
+- It does not modify games, launcher settings, DRM, the hosts file or registry settings. It only works with games the user owns and has activated.
+- Firewall rules are grouped as "LauncherOffline". Launchers installed through Scoop junctions are supported; "Repair" re-points rules after launcher updates.
+- Languages: English, Turkish; new languages are one file in `locales/`. New launchers are one data file in `launchers/`.
+
+## Links
+
+- [README](https://github.com/cngil/launcher-offline#readme): install, usage, FAQ
+- [Contributing](https://github.com/cngil/launcher-offline/blob/main/CONTRIBUTING.md): add a launcher or a language
+- [Source](https://github.com/cngil/launcher-offline)

@@ -1,0 +1,3 @@
+# Windows tooling: keep CRLF in the working tree (cmd files break with LF).
+* text=auto eol=crlf
+*.png binary
